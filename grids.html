@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..Grids in css..</title>
+    <style>
+        .container {
+            border: 2px solid yellow;
+            display: grid;
+            grid-template-columns: 120px 100px;
+        }
+        .iteams {
+             border: 2px solid red;
+             width: 55px;
+             height: 55px;
+        }
+        /* .iteam4 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        } */
+        /* .iteam1 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        } */
+        .iteam5 {
+            grid-row: 3/4;
+            grid-column: 1/2;
+        } 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="iteams iteam1">1</div>
+        <div class="iteams">2</div>
+        <div class="iteams">3</div>
+        <div class="iteams iteam4">4</div>
+        <div class="iteams iteam5">5</div>
+    </div>
+</body>
+</html>
